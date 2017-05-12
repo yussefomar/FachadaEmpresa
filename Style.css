@@ -1,0 +1,97 @@
+*{
+
+	margin:0;
+	padding: 0;
+}
+
+#wrapper{
+	box-shadow: 0 0 12px rgba(0,0,0,0.8);
+	margin:0 auto;
+	max-width: 144px
+	width:100% !important; 
+}
+
+section{
+
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-attachment:fixed;
+      height:1100px;
+      margin:0 auto;
+       overflow: hidden;
+      padding:0;
+      position:relative;
+   width:100% !important; 
+
+}
+#bloque4{
+	background-image: url("img/pisa1.jpg")
+}
+
+#bloque2{
+	background-image: url("img/infinito.jpg")
+}
+#bloque3{
+	background-image: url("img/gato.jpg")
+}
+#bloque1{
+	background-image: url("img/puente.jpg")
+}
+h1{
+	background-color: #02223a;
+	bottom:0;
+	display: block;
+	color:#fff;
+	font-size: 5em;
+	font-weight: bold;
+	margin-top: 5em;
+	opacity:0.85;
+	text-shadow: 1px 1px 1px #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+h2{
+	color:#fff;
+	font-size: 5em;
+	font-weight: bold;
+	margin-top: 5em;
+	opacity:0.85;
+	text-shadow: 1px 1px 1px #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	color:#fff;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 2em;
+	opacity:0.85;
+	text-shadow: 1px 1px 1px #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+p{
+
+	color:#fff;
+	 font-style:italic ;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 2em;
+	opacity:0.85;
+	text-shadow: 1px 1px 1px #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+li{
+
+	color:#fff;
+	 font-style:italic ;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 2em;
+	opacity:0.85;
+	text-shadow: 1px 1px 1px #ccc;
+	text-align: center;
+	text-transform: uppercase;	
+ }
