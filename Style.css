@@ -25,7 +25,7 @@ section{
 
 }
 #bloque4{
-	background-image: url("img/pisa1.jpg")
+	background-image: url("img/grupoDeTrabajo.jpg")
 }
 
 #bloque2{
@@ -37,7 +37,7 @@ section{
 #bloque1{
 	background-image: url("img/puente.jpg")
 }
-h1{
+.misbloques h1{
 	background-color: #02223a;
 	bottom:0;
 	display: block;
@@ -50,7 +50,7 @@ h1{
 	text-align: center;
 	text-transform: uppercase;
 }
-h2{
+.misbloques h2{
 	color:#fff;
 	font-size: 5em;
 	font-weight: bold;
@@ -61,7 +61,7 @@ h2{
 	text-transform: uppercase;
 }
 
-h3{
+.misbloques h3{
 	color:#fff;
 	font-size: 2em;
 	font-weight: bold;
@@ -71,7 +71,7 @@ h3{
 	text-align: center;
 	text-transform: uppercase;
 }
-p{
+.misbloques p{
 
 	color:#fff;
 	 font-style:italic ;
@@ -83,7 +83,7 @@ p{
 	text-align: center;
 	text-transform: uppercase;
 }
-li{
+.misbloques li{
 
 	color:#fff;
 	 font-style:italic ;
