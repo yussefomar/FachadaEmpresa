@@ -1,15 +1,11 @@
 *{
 
 	margin:0;
+	
 	padding: 0;
 }
 
-#wrapper{
-	box-shadow: 0 0 12px rgba(0,0,0,0.8);
-	margin:0 auto;
-	max-width: 144px
-	width:100% !important; 
-}
+
 
 section{
 
@@ -25,6 +21,7 @@ section{
 
 }
 #bloque4{
+	 
 	background-image: url("img/grupoDeTrabajo.jpg")
 }
 
@@ -102,4 +99,8 @@ div{
 	padding-right: : 50% !important; 
 
  
+}
+.container{
+	 
+	 
 }
