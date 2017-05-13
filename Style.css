@@ -36,6 +36,7 @@ section{
 }
 #bloque1{
 	background-image: url("img/puente.jpg")
+
 }
 .misbloques h1{
 	background-color: #02223a;
@@ -95,3 +96,10 @@ section{
 	text-align: center;
 	text-transform: uppercase;	
  }
+div{ 
+	padding-left: : 50% !important; 
+
+	padding-right: : 50% !important; 
+
+ 
+}
