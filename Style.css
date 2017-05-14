@@ -104,3 +104,15 @@ div{
 	 
 	 
 }
+  
+  .logoEmpresa{
+ 	height:8em;
+ 	width: 10em;
+ }
+ .img-responsive{
+ 	max-width: 100% !important;
+ 	width:100% !important;
+ }
+ .carruselpadding{
+ 	padding:0;
+ }
