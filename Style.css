@@ -20,22 +20,14 @@ section{
    width:100% !important; 
 
 }
-#bloque4{
-	 
-	background-image: url("img/grupoDeTrabajo.jpg")
-}
+ 
 
-#bloque2{
-	background-image: url("img/infinito.jpg")
-}
+ 
 #bloque3{
 	background-image: url("img/gato.jpg")
 }
-#bloque1{
-	background-image: url("img/puente.jpg")
-
-}
-.misbloques h1{
+ 
+#bloque3 h1{
 	background-color: #02223a;
 	bottom:0;
 	display: block;
@@ -48,7 +40,7 @@ section{
 	text-align: center;
 	text-transform: uppercase;
 }
-.misbloques h2{
+#bloque3 h2{
 	color:#fff;
 	font-size: 5em;
 	font-weight: bold;
@@ -59,7 +51,7 @@ section{
 	text-transform: uppercase;
 }
 
-.misbloques h3{
+#bloque3 h3{
 	color:#fff;
 	font-size: 2em;
 	font-weight: bold;
@@ -69,7 +61,7 @@ section{
 	text-align: center;
 	text-transform: uppercase;
 }
-.misbloques p{
+#bloque3 p{
 
 	color:#fff;
 	 font-style:italic ;
@@ -81,7 +73,7 @@ section{
 	text-align: center;
 	text-transform: uppercase;
 }
-.misbloques li{
+#bloque3 li{
 
 	color:#fff;
 	 font-style:italic ;
@@ -112,6 +104,8 @@ div{
  .img-responsive{
  	max-width: 100% !important;
  	width:100% !important;
+ 	max-height: 700px;
+ 	 
  }
  .carruselpadding{
  	padding:0;
