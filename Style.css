@@ -24,7 +24,7 @@ section{
 
  
 #bloque3{
-	background-image: url("img/gato.jpg")
+	background-image: url("img/sol.jpg")
 }
  
 #bloque3 h1{
@@ -67,12 +67,26 @@ section{
 	 font-style:italic ;
 	font-size: 2em;
 	font-weight: bold;
-	margin-top: 2em;
+	 
 	opacity:0.85;
 	text-shadow: 1px 1px 1px #ccc;
 	text-align: center;
 	text-transform: uppercase;
+	background-color: #02223a;
 }
+
+#titulo1{
+ margin-top: 2em;
+}
+
+#titulo3{
+ margin-top: 8em;
+}
+
+#titulo2{
+ margin-top: 5em;
+}
+
 #bloque3 li{
 
 	color:#fff;
@@ -94,18 +108,15 @@ div{
 }
 .container{
 	 
-	 
 }
   
   .logoEmpresa{
- 	height:8em;
- 	width: 10em;
+ 	height:6em;
+ 	width: 8em;
  }
  .img-responsive{
- 	max-width: 100% !important;
- 	width:100% !important;
- 	max-height: 700px;
- 	 
+ 	  	width:100% !important;
+         
  }
  .carruselpadding{
  	padding:0;
@@ -129,4 +140,8 @@ div{
     border-top:0px !important;
     border-bottom:0px !important;
 
+}
+#carousel_1 ol{
+
+	margin-right: 10em  !important;
 }

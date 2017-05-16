@@ -11,8 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link href="Style.css" rel="stylesheet">
          <link href="bootstrap.min.css" rel="stylesheet">
-         <link href="justified-nav.css" rel="stylesheet">
-
+        
     </head>
     <body>
 
@@ -21,30 +20,52 @@ and open the template in the editor.
          <div class="container">
               
         
-      <!-- The justified navigation menu is meant for single line per list item.
-           Multiple lines will require custom code not provided by Bootstrap. -->
-      <div class="masthead">
-        <img class="logoEmpresa" src="img/logo.jpg"/>
-
-        <nav>
-          <ul class="nav nav-justified">
-            <li class="active"></li>
-             <li><a href="#">Projects</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+       <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
           </ul>
-        </nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
+            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
+    </nav>
 
       <!-- Jumbotron -->
          
             
-           <div  class="carruselpadding"class="col-md-12">
+           <div  class="carruselpadding" class="col-md-6">
                <div id="carousel_1" class="carousel slide" data-ride="carousel">
                  <!-- indicadores -->
-                 <ol class="carousel-indicators">
+                 <ol class="carousel-indicators" id="desplazar">
                      <li data-target="#carousel_1" data-slide-to="0" class="active"></li>
                       <li data-target="#carousel_1" data-slide-to="1"></li>
                        <li data-target="#carousel_1" data-slide-to="2"></li>
@@ -87,6 +108,10 @@ and open the template in the editor.
          
 
       <!-- Example row of columns -->
+      
+
+
+
       <div class="row">
         <div class="col-lg-4">
           <h2>Simplicidad</h2>
@@ -126,9 +151,9 @@ and open the template in the editor.
             
             
             <a name="Pagina3"><section id="bloque3"></a>
-                 <h1 id="titulo1">Creacion Profesional de Paginas web </h1>
-                 <h2 id="titulo2">Creacion Profesional de Paginas web </h1>
-                 <h3 id="titulo3">Creacion Profesional de Paginas web </h1>
+                 <p id="titulo1">Mediante encuestas en las redes sociales que seran en un determinado periodo,estas encuestas serviran para modelar el programa final </p>
+                 <p id="titulo2">el usuario y el administrador son la misma persona   </p>
+                 <p id="titulo3">Simplicidad es la clave, todo software creado sera tan simple como sea posible para que sea facil de utilizar.</p>
             </section>
 
 
